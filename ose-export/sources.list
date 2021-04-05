@@ -1,0 +1,3 @@
+#/etc/apt/sources.list
+
+deb cdrom:[OSE Linux 2.0 Beta _Neowise_ (20200816)]/ focal contrib main
