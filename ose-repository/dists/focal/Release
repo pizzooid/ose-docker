@@ -1,0 +1,33 @@
+Architectures: amd64
+Codename: focal
+Components: main contrib non-free
+Date: Wed, 24 Jun 2020 14:10:37 -0400
+Description: linuxmint 20 local repository
+Label: Ubuntu
+Origin: Ubuntu
+Suite: focal
+Version: 14.10
+MD5Sum:
+ a7a836b224ad2def6fb149433c9305ef              209 Release
+ 87afea0f88a584a661aa8908f458d41a             1062 contrib/binary-amd64/Packages
+ 5e7b04d880ba2e37f5c5300deaac8fcf              709 contrib/binary-amd64/Packages.gz
+ bd634340188f07d36d433a81e59b5ea4            30206 main/binary-amd64/Packages
+ 26c100f5868880e63be607a41b2cb773            10647 main/binary-amd64/Packages.gz
+SHA1:
+ bed875e5aa7f7472f6a4193364a6444d1fc6c630              209 Release
+ 57d0a49983824acb9e4625e2dd64e594286772da             1062 contrib/binary-amd64/Packages
+ 4f4ca5ff1157c3ae5b765f45ae65b3c49651778b              709 contrib/binary-amd64/Packages.gz
+ 16480dcf82783bab3bc148e734f1b319e9aa4f29            30206 main/binary-amd64/Packages
+ f85b018d70713db7fef14aaabacfc0566039bf69            10647 main/binary-amd64/Packages.gz
+SHA256:
+ 2b01151fe8571804717583a834b4983135765b1d5252f03f0ef68162408d0804              209 Release
+ 8396baf63cd897ce44f510c6dd5b30597652219fd135b7199b7a0ae33ceb9a9a             1062 contrib/binary-amd64/Packages
+ afc058a1b9f9218feed0a6fcc860cb2d169cd172c90089e8e52e2db02254d2e5              709 contrib/binary-amd64/Packages.gz
+ fda95a22a905451745728a952771b70f8156e69e2aa0f83eea824f4558db8c55            30206 main/binary-amd64/Packages
+ 7f6ca9df12b7b8696d9e612d5021b6d6bc8c763510230c16a03866340e91c907            10647 main/binary-amd64/Packages.gz
+SHA512:
+ 84b4331f3cb81853e3e8c7ce4d65b16d91e00daaada13389a20b109f8afb880f21f22071ba178f5cbbed677c698c55a0656676393b4c5d0a03519db57c568e22              209 Release
+ c41d2874e8db45829cebb4f761e9ef85d70ac7f681697dd7a381a36d5500bf05fe860705a9639da78e2da21a2d0fb91f21f7a85749ada135d0948c7073d599c3             1062 contrib/binary-amd64/Packages
+ 2d3f6cde35c70e4620614a677eec0de63ee907165a381869ac8ee0c7b45c3340c1f4b942886d65fc04bcca814ecba540e43e03ba74a2f336857916f96baaca5f              709 contrib/binary-amd64/Packages.gz
+ 7834de3ecba9e51b79d4e206041e3cc125c046f53cf84db2298423e846b7e2d9889ea12bc0a2dc2fddb2f15a3fea4aac118aa528672990c05dabe751fe1e1dbe            30206 main/binary-amd64/Packages
+ c7b39485b0a3370333e886a4e127e744a1bfb07485ed919f8640efee59bedc1b0f06ef10b1fde20c00648f94cbd76e2cd8ab15d32ef02a62faf4b1af8dcdebef            10647 main/binary-amd64/Packages.gz

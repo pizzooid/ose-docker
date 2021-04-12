@@ -1,0 +1,619 @@
+Package: mouseemu
+Architecture: amd64
+Version: 0.16-0ubuntu10
+Priority: optional
+Section: utils
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Gaudenz Steinlin <gaudenz@debian.org>
+Installed-Size: 58
+Depends: libc6 (>= 2.15), procps, dmidecode
+Breaks: udev (<< 136-1)
+Filename: pool/main/m/mouseemu/mouseemu_0.16-0ubuntu10_amd64.deb
+Size: 16558
+MD5sum: 7eff583339f73c06742ac0af56204ac1
+SHA1: a71b9ac728f15ac4c9940944ee762e20a94114d7
+SHA256: 87100fcfa221b16188590b1d143e7b34d8aff7e246b5664f5e728e8547a3b127
+SHA512: 6426eeb7cb596b557af41a1d0e66516753ce2ceb219c13cf463bc047070c7b55c21f936814c4c924241e59274343f8e9a0c4fe10ec1758f9cb329dd19344c717
+Description: Emulate mouse buttons and mouse wheel
+ Mouseemu is a daemon to emulate mouse buttons on trackpads
+ with only one button. It lets you:
+  - emulate middle and right click
+  - emulate mouse wheel
+  - block trackpad while typing
+ .
+ It was initially developed for Apple PowerBooks
+ and iBooks, but it may be useful on other architectures
+ as well.
+ .
+ This program only works when booting a 2.6 kernel because
+ it uses the new uinput interface to emulate the mouse.
+
+Package: libcrypt-dev
+Architecture: amd64
+Version: 1:4.4.10-10ubuntu4
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libxcrypt
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 321
+Provides: libcrypt1-dev
+Depends: libcrypt1 (= 1:4.4.10-10ubuntu4)
+Conflicts: libcrypt1-dev, libcrypt2-dev
+Breaks: libc6-dev (<< 2.31), manpages-dev (<< 5.01-1)
+Replaces: libc6-dev (<< 2.31), libcrypt1-dev, libcrypt2-dev, manpages-dev (<< 5.01-1)
+Filename: pool/main/libx/libxcrypt/libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb
+Size: 104104
+MD5sum: 8793f32f562b4fa2bd57f51de6a1a74e
+SHA1: 5572ad87cb46df76b8c6ddd1885192ebff1c5f63
+SHA256: f0a41d8e8cf379dbbdfc43169f34851ed452b3581e72c6654f2e290caf4e1b20
+SHA512: b3a47410604c22e7730761d16b2a770a3a59e563f3c23ca8a0713ce7cf4cc03211e7c2cd19de6756d5b0462f2abc05cd4fe7423a898a1056af24b495fe6bee08
+Description: libcrypt development files
+ This package contains the files needed for developing applications that
+ use libcrypt.
+
+Package: wvdial
+Architecture: amd64
+Version: 1.61-5
+Priority: optional
+Section: comm
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 256
+Depends: ppp (>= 2.3.0), debconf (>= 0.5.00) | cdebconf, libc6 (>= 2.28), libstdc++6 (>= 5), libuniconf4.6, libwvstreams4.6-base, libwvstreams4.6-extras, debconf (>= 0.5) | debconf-2.0
+Filename: pool/main/w/wvdial/wvdial_1.61-5_amd64.deb
+Size: 64592
+MD5sum: 16e486cab67ca4fa44ddc408e743cd45
+SHA1: b83fc61b0d6e67e8453955df27f3f264b25eb3f0
+SHA256: b6a457c65c5f4209a55e89877bd69c098bf6e456f6813c7084d2a3ca131b7537
+SHA512: 965dc2dd6b257665157119bf6d5afba78c2c8cf92b07e2201954c4411efa46aaddb1d22dbc1370ece2fe1b5e1cda8d3fa825cfbf82c11d04f6e42c0c109bcd43
+Homepage: http://alumnit.ca/wiki/index.php?page=WvDial
+Description: intelligent Point-to-Point Protocol dialer
+ WvDial sacrifices some of the flexibility of programs like "chat" in order
+ to make dialup configuration easier. With WvDial,
+ modems are detected automatically and only three additional parameters
+ are required: the telephone number, username, and password. WvDial knows
+ enough to dial with most modems and log in to most servers without any
+ other help.
+ .
+ In particular, a "chat script" is not required to handle the most common
+ situations.
+
+Package: libwvstreams4.6-extras
+Architecture: amd64
+Version: 4.6.1-14build1
+Priority: optional
+Section: libs
+Source: wvstreams
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 1300
+Depends: libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libssl1.1 (>= 1.1.0h), libstdc++6 (>= 5), libwvstreams4.6-base, zlib1g (>= 1:1.1.4)
+Filename: pool/main/w/wvstreams/libwvstreams4.6-extras_4.6.1-14build1_amd64.deb
+Size: 337920
+MD5sum: 257e8c6d5ec7e1a855e5ebef7dd8aff2
+SHA1: eb5afcfb3bfc27d050c57ec37be9e4a77e4d1128
+SHA256: 7e4971473a4f1f6ea0c58854cfe172a46cd20a470689a07d8fb28cb5a3a7349f
+SHA512: 9f43306af9a16913ea468d7ec7e16739aecdc3f88f2aec809d10dcf6e9884f10e8ab3759209b8473e78ef0bea2804fd4073ffb47dd6f5aa336a12fb42400f5af
+Homepage: https://github.com/apenwarr/wvstreams/
+Description: C++ network libraries for rapid application development
+ WvStreams is a library suite that is comprised of several parts.  Included
+ in the extras package are:
+  * WvIPStreams: which includes WvTCPStream and WvUDPStream
+  * WvCrypto streams: a REALLY easy way to add SSL support to applications
+ .
+ These are the base classes used to build programs such as the ever popular
+ WvDial, TunnelVision, FastForward, KWvDial, retchmail, and many more yet
+ to come.  ;)
+
+Package: libuniconf4.6
+Architecture: amd64
+Version: 4.6.1-14build1
+Priority: optional
+Section: libs
+Source: wvstreams
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 448
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libwvstreams4.6-base, libwvstreams4.6-extras
+Filename: pool/main/w/wvstreams/libuniconf4.6_4.6.1-14build1_amd64.deb
+Size: 102396
+MD5sum: 9fef68ff5eea6a53ef26d2f36500bd7b
+SHA1: 90b5840831912491bdca5111e42c83d81b63b3fd
+SHA256: 312b1bfd62fb8d8893063d9afc34e759fad3460a80f081d425b16d922c0983ad
+SHA512: 54cbc5a5ca4d940ab9385eb96125b1b971af009d37ed9117d04e53fb1be57980950caf087c98ef0572185c511f891bfbf348480590192f5c584aee397ad1414f
+Homepage: https://github.com/apenwarr/wvstreams/
+Description: C++ network libraries for rapid application development
+ UniConf is a configuration system that can serve as the centrepiece among
+ many other, existing configuration systems, such as:
+  * GConf
+  * KConfig
+  * Windows registry
+  * Mutt ;)
+ .
+ UniConf can also be accessed over the network, with authentication, allowing
+ easy replication of configuration data via the UniReplicateGen.
+
+Package: libwvstreams4.6-base
+Architecture: amd64
+Version: 4.6.1-14build1
+Priority: optional
+Section: libs
+Source: wvstreams
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 621
+Depends: libc6 (>= 2.28), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Filename: pool/main/w/wvstreams/libwvstreams4.6-base_4.6.1-14build1_amd64.deb
+Size: 166472
+MD5sum: 745d9ea0a7a05d4175b186e84db5445c
+SHA1: ce44490e69cf7a3fefe609aa235281d671e5ca59
+SHA256: 3c562ab0dffbc02dae40eb829ccf1af48bba0bd65cb4415ef269caff5c1a969d
+SHA512: c3f6b0301b0dd9edd52ea550c9f79bdda641aae45c63dc88a28b6b9010fe61528c1dc1a8e5f5dbfba29ce1b9092e5105ad82533ab5fe1cd4762121fe5c5c29da
+Homepage: https://github.com/apenwarr/wvstreams/
+Description: C++ network libraries for rapid application development
+ WvStreams is a library suite that is comprised of several parts.  Included
+ in the base package are:
+  * WvString: a convenient and efficient C++ string class
+  * WvList: an easy-to-use linked list
+  * WvHashTable: an efficient and easy-to-use hash table
+  * WvFile: a WvStream wrapper for handling files
+  * WvStreamClone: a base class which makes writing your own WvStreams easy
+  * WvLog: a log files handler
+  * UniIniGen: a tiny version of UniConf for simple configuration systems
+
+Package: oem-config-gtk
+Architecture: all
+Version: 20.04.15+linuxmint10
+Priority: optional
+Section: admin
+Source: ubiquity
+Maintainer: Linux Mint Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 204
+Provides: oem-config-frontend-20.04.15+linuxmint10
+Depends: aptdaemon, oem-config (= 20.04.15+linuxmint10), python3-aptdaemon.gtk3widgets, ubiquity-frontend-gtk (= 20.04.15+linuxmint10)
+Filename: pool/main/u/ubiquity/oem-config-gtk_20.04.15+linuxmint10_all.deb
+Size: 191268
+MD5sum: a66f05f0501bf134417323a0f47382de
+SHA1: 3fe502fd05cecd23b38fd642226eb028b3392bfb
+SHA256: 5ebb27253af7daa4fef478293a021f45a2e2181298e222e42cdba5e04cd75adb
+SHA512: 52ac552f207e6b7d827132651062dd9c48d0c1de83e58a7903166b472dc989cd0e8e66a8d9835cd4d25cc39da3151702420925f87ed87be55f44401ffba288b3
+Description: GTK+ frontend for end-user post-OEM-install configuration
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+ .
+ This is a GTK+ frontend to oem-config.
+
+Package: oem-config
+Architecture: all
+Version: 20.04.15+linuxmint10
+Priority: optional
+Section: admin
+Source: ubiquity
+Maintainer: Linux Mint Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 240
+Depends: oem-config-frontend-20.04.15+linuxmint10, procps, ubiquity (= 20.04.15+linuxmint10), debconf (>= 0.5) | debconf-2.0
+Filename: pool/main/u/ubiquity/oem-config_20.04.15+linuxmint10_all.deb
+Size: 197372
+MD5sum: f741b8b42bcc87a7abe2b65624fe6526
+SHA1: f8470f49d7a4f4711ebe8af1b92904d6a97a684a
+SHA256: 70d4f067a83bf37a812d9bd3e72c270f48d2a5113c813b01e377aee65cc1046b
+SHA512: fe85af712081dedbbf09849d4601807f7cd2cbb6e4a37177714073279e56fa91701a10bdfa22694da9529f3a49d83d45e56d5a9013ffa487c680c9ca99086604
+Description: Perform end-user configuration after initial OEM installation
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+
+Package: linux-wlan-ng
+Architecture: amd64
+Version: 0.2.9+dfsg-6
+Priority: extra
+Section: kernel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Installed-Size: 560
+Depends: libc6 (>= 2.14), wireless-tools, udev (>= 0.140-1)
+Recommends: linux-wlan-ng-doc
+Conflicts: linux-wlan-ng-0.1.15-modules, linux-wlan-ng-modules
+Filename: pool/main/l/linux-wlan-ng/linux-wlan-ng_0.2.9+dfsg-6_amd64.deb
+Size: 72358
+MD5sum: 8043a2216e8da10a86937e07a2d9c2d8
+SHA1: ca40b56f5f64f8171d2d30bb18ad02e5e20d866a
+SHA256: 5869fcbc62864569477044895260346cbcb2cf623ab3b8191007ae351a8cc5d1
+SHA512: ca3180f61d63584f010ae8040b7e8313e4028c5ca60f17a6cf9230dc37075e667420c21b0af535d1c30910b153605242c27da5d65c3c4829952676ea7915e7e4
+Description: utilities for wireless prism2 cards
+ linux-wlan-ng is a set of drivers and utilities that is intended to
+ provide the full range of IEEE 802.11 MAC management capabilities for use
+ in user-mode utilities and scripts. The package currently supports the
+ Intersil 802.11b Prism2, Prism2.5, and Prism3 reference designs for
+ PCMCIA, PCI, and USB. Additionally, the package includes support for the
+ PLX9052 based PCI to PCMCIA adapter with a few different PCMCIA cards.
+ .
+ Please note that you probably do not need this package: The prism2_usb
+ driver is included in the default kernel packages since 2.6.31.
+ If you need firmware loading for your prism2_usb device, please just
+ install the prism2-usb-firmware-installer package.
+ .
+ This package ships legacy utilities and scripts for advanced
+ configuration and user-space firmware downloading (support for
+ non-USB devices).
+
+Package: shim-signed
+Architecture: amd64
+Version: 1.40.3+15+1533136590.3beb971-0ubuntu1
+Built-Using: shim (= 15+1533136590.3beb971-0ubuntu1)
+Priority: optional
+Section: utils
+Source: shim-signed (1.40.3)
+Maintainer: Steve Langasek <steve.langasek@ubuntu.com>
+Installed-Size: 1357
+Depends: debconf (>= 0.5) | debconf-2.0, shim (= 15+1533136590.3beb971-0ubuntu1), grub-efi-amd64-signed | grub-efi-arm64-signed, grub2-common (>= 2.04-1ubuntu24), mokutil (>= 0.3.0+1538710437.fb6250f-0ubuntu2), sbsigntool
+Recommends: secureboot-db
+Filename: pool/main/s/shim-signed/shim-signed_1.40.3+15+1533136590.3beb971-0ubuntu1_amd64.deb
+Size: 343812
+MD5sum: 60399bb8b0551dfb727e890a05da7f37
+SHA1: dd468bf102ba0916c665c043fda0b99d5812a039
+SHA256: ec17a7a92e7fa5fc2c2ef4b6c2024d7ea98e2e64307d4e7ea29688b5974f7686
+SHA512: 355fdf680f2cfa77c90f2592e9293fb6d7a636840bb6c356fd1f758f027b561fcd8d940a1e7696e98c977d3361a50fcef54054965f6d07ff2a8b131016f0c62d
+Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains the version of the bootloader binary signed by the
+ Microsoft UEFI CA.
+
+Package: shim
+Architecture: amd64
+Version: 15+1533136590.3beb971-0ubuntu1
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Steve Langasek <vorlon@debian.org>
+Installed-Size: 3744
+Breaks: shim-signed (<< 1.33~)
+Filename: pool/main/s/shim/shim_15+1533136590.3beb971-0ubuntu1_amd64.deb
+Size: 574704
+MD5sum: 57145d15f6745f2dd9a081cf39da0350
+SHA1: cb39bc7bddf189ab15baaf7a087169a886dc30bc
+SHA256: 3099b90ba9d7bdf705a89a936b622633fe2a5141f24aa0af046b6c629d5475c5
+SHA512: 4b1aab8d6d37b653c01c627749ae0a6e56a1564c5ec6321d9dee71599257e4f947dda12efa2287b8379dcb36ccd715b5fad5e92d1629e5b4265b13e9c989fa1a
+Description: boot loader to chain-load signed boot loaders under Secure Boot
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+
+Package: setserial
+Architecture: amd64
+Version: 2.17-52
+Priority: optional
+Section: comm
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Thorsten Alteholz <debian@alteholz.de>
+Installed-Size: 117
+Depends: libc6 (>= 2.7), debconf (>= 0.5) | debconf-2.0, lsb-base (>= 3.0-6)
+Filename: pool/main/s/setserial/setserial_2.17-52_amd64.deb
+Size: 35896
+MD5sum: 7079809a59a80dcb3923e1bc26a5ff9c
+SHA1: d48bf6b3773905d457dba6ec80f74236df9e09a3
+SHA256: d534b298c895a8143a75baf2a11e4736c3669535d18dcc23b34b1231420928f8
+SHA512: 03b74dfdf69c378f6fed14e281ccf927a9a1003ae61054c51b0e33602c5d9f0836fd6ba7a2fbec89fd7d20c344656ed48bfa929d2c2a0d0d238defc1e0d0c34f
+Description: controls configuration of serial ports
+ Set and/or report the configuration information associated with
+ a serial port. This information includes what I/O port and which IRQ
+ a particular serial port is using.
+ .
+ This version has a completely new approach to configuration, so if you
+ have a setup other than the standard ttyS0 and 1, you will have to get
+ your hands dirty.
+ .
+ By default, only COM1-4 are configured by the kernel, using IRQ 3 and 4.
+ If you have other serial ports (such as an AST Fourport card), or
+ if you have mapped the IRQs differently (perhaps COM3 and 4 to other
+ IRQs to allow concurrent access with COM1 and 2) then you must have this
+ package.
+
+Package: bcmwl-kernel-source
+Architecture: amd64
+Version: 6.30.223.271+bdcom-0ubuntu5
+Priority: optional
+Section: admin
+Source: bcmwl
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Milone <alberto.milone@canonical.com>
+Installed-Size: 7879
+Depends: dkms, linux-libc-dev, libc6-dev
+Conflicts: bcmwl-modaliases
+Replaces: bcmwl-modaliases
+Filename: pool/main/b/bcmwl/bcmwl-kernel-source_6.30.223.271+bdcom-0ubuntu5_amd64.deb
+Size: 1543896
+MD5sum: 5def162ce8d4e8ad398a4776d156fc9a
+SHA1: f1310db91d3ff3c973eeb8e5d5c45d15f028b112
+SHA256: 5da6040535448013c805ebb4be894bc991c8c457f5939c0c02feab9bb14fea9c
+SHA512: d2aa4c4915dc6cc565afe18e159de84d7c8a055a8462a8b1c7d85e2cda76f5fd646c350fd0dbcca6c9232a8b6af3fe6622fbe6e419748e48c6365c0e7853237a
+Description: Broadcom 802.11 Linux STA wireless driver source
+ This package contains Broadcom 802.11 Linux STA wireless driver
+ for use with Broadcom's BCM4311-, BCM4312-, BCM4313-, BCM4321-,
+ BCM4322-, BCM43224-, and BCM43225-, BCM43227- and BCM43228-based
+ hardware.
+Modaliases: wl(pci:v000014E4d00004311sv*sd*bc02sc80i*, pci:v000014E4d00004312sv*sd*bc02sc80i*, pci:v000014E4d00004313sv*sd*bc02sc80i*, pci:v000014E4d00004315sv*sd*bc02sc80i*, pci:v000014E4d00004727sv*sd*bc02sc80i*, pci:v000014E4d00004328sv*sd*bc02sc80i*, pci:v000014E4d00004328sv*sd*bc02sc80i*, pci:v000014E4d00004329sv*sd*bc02sc80i*, pci:v000014E4d0000432asv*sd*bc02sc80i*, pci:v000014E4d0000432bsv*sd*bc02sc80i*, pci:v000014E4d0000432csv*sd*bc02sc80i*, pci:v000014E4d0000432dsv*sd*bc02sc80i*, pci:v000014E4d00004365sv*sd*bc02sc80i*, pci:v000014E4d00004353sv*sd*bc02sc80i*, pci:v000014E4d00004357sv*sd*bc02sc80i*, pci:v000014E4d00004358sv*sd*bc02sc80i*, pci:v000014E4d00004359sv*sd*bc02sc80i*, pci:v000014E4d00004331sv*sd*bc02sc80i*, pci:v000014E4d000043a0sv*sd*bc02sc80i*, pci:v000014E4d000043B1sv*sd*bc02sc80i*)
+
+Package: libubsan0
+Architecture: amd64
+Version: 7.5.0-6ubuntu2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gcc-7
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 341
+Depends: gcc-7-base (= 7.5.0-6ubuntu2), libc6 (>= 2.4), libgcc-s1, libstdc++6
+Filename: pool/main/g/gcc-7/libubsan0_7.5.0-6ubuntu2_amd64.deb
+Size: 126256
+MD5sum: 90965d7ac43609fd786fde495ddf129f
+SHA1: ea66abb507bb6a4f88eba428d5e6863ebf6fbf78
+SHA256: c58a240cee993002a536c31a8735ff0076a142ff9be2b5e064677e73e0e31a33
+SHA512: 69b1fc680ea3bc52958a35e266eeb63262004928777c199cdf4591712275bdf8589b4b70287a07bf83302123e194912ddd05e0ffba4b7361264ec75368732633
+Homepage: http://gcc.gnu.org/
+Description: UBSan -- undefined behaviour sanitizer (runtime)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: gcc-7-base
+Architecture: amd64
+Version: 7.5.0-6ubuntu2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: gcc-7
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 115
+Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat (<< 7), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
+Filename: pool/main/g/gcc-7/gcc-7-base_7.5.0-6ubuntu2_amd64.deb
+Size: 18496
+MD5sum: de80eb8763968dd2dab867f21f6cba92
+SHA1: 33a691f79c80177879c0890b9a4a0ce9ab4d3cc0
+SHA256: ebbf00800c2d3655a435c169511e7afd64fdd8818e0cf181ceef54a600ea9ab1
+SHA512: d666961944fe70d751a49604dcadd206c6180014e11635c2cf35ba508b68b37aa7da5c166ee522e42d5b287527302fdf5bcabb7a554456fc8813878b3f452ed2
+Homepage: http://gcc.gnu.org/
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+
+Package: libcilkrts5
+Architecture: amd64
+Version: 7.5.0-6ubuntu2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gcc-7
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 147
+Depends: gcc-7-base (= 7.5.0-6ubuntu2), libc6 (>= 2.7), libgcc-s1, libstdc++6
+Filename: pool/main/g/gcc-7/libcilkrts5_7.5.0-6ubuntu2_amd64.deb
+Size: 42672
+MD5sum: db1b25930dd32a905e90ef6c26355a21
+SHA1: da4ef14297a2123ff317540a5241296b8faf44e2
+SHA256: 881d62e7f30ffa6016c35adec129cd558a1cb2c4954a6ebc0777b887469a2ba6
+SHA512: 02a8b542e905bd06575e8585765a900283d450fd21be48bebff33a712c30c5c10d17b3f6d1a9e544b16dc4eb03a32908ddd7f799b9e0ae1408d2906cc36bc8ec
+Homepage: http://gcc.gnu.org/
+Description: Intel Cilk Plus language extensions (runtime)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: grub-efi-amd64-bin
+Architecture: amd64
+Version: 2.04-1ubuntu26
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 7279
+Depends: grub-common (= 2.04-1ubuntu26)
+Recommends: grub-efi-amd64-signed, efibootmgr
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.04-1ubuntu26)
+Filename: pool/main/g/grub2/grub-efi-amd64-bin_2.04-1ubuntu26_amd64.deb
+Size: 701712
+MD5sum: 891e4c61230869cd12b4abff9e17e197
+SHA1: c0dacea30ea1a1acb1a2c72c90e37f081ce28288
+SHA256: f042b7cc8f8660eb2cf092acfa4e26d69cb38aabcb58e0ec77da873953875e29
+SHA512: 52ce29518fc50bad9e5bd63d2914db68a4a4b80bc0b37fd886529c666abef4ab01f0acd75bc89ea6260bd4cfa8f64720e3db52ee36985efe6124a38789f7d7f3
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+Efi-Vendor: ubuntu
+
+Package: grub-efi-amd64
+Architecture: amd64
+Version: 2.04-1ubuntu26
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 178
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.04-1ubuntu26), grub2-common (= 2.04-1ubuntu26), grub-efi-amd64-bin (= 2.04-1ubuntu26), ucf
+Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.04-1ubuntu26)
+Filename: pool/main/g/grub2/grub-efi-amd64_2.04-1ubuntu26_amd64.deb
+Size: 46624
+MD5sum: ed0ee5991913d822470aa626a83cc7a5
+SHA1: f5624c07ca27426d26bb698ef2f4d75a830d60fb
+SHA256: b0d85e5396be869ff116a074e71af06a9caaa41627ba89f334f54c7b6a7647ce
+SHA512: 258fa7cbb5da6cd3836d9cf307819a46e38cdf786c8bcd1b684bea75b2643d241d5b97037586a6403f7b178edb204e0df8fdac7cb783ea97a8be7fba1d5d6108
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS
+ interface has been activated).  Installing this package indicates that this
+ version of GRUB should be the active boot loader.
+
+Package: grub-efi
+Architecture: amd64
+Version: 2.04-1ubuntu26
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: grub2
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 16
+Depends: grub-common (= 2.04-1ubuntu26), grub-efi-amd64 (= 2.04-1ubuntu26)
+Filename: pool/main/g/grub2/grub-efi_2.04-1ubuntu26_amd64.deb
+Size: 2588
+MD5sum: d6c20c9aea63058ab9b6da6b5f99ec6a
+SHA1: 33bc54538c6fd42b891b4a333ba24c24557f3a62
+SHA256: 20b7f8843fbcacf72cda374c94df978b478005e9dbc5711dba5c3b6a5389064f
+SHA512: c9c799777933133b8846c5315921db88753340e3ac6026a4a02cc47a6fd754cca3f1adb79c5a2bd373e1c366d34ea1257ef22a04fe8a8a8a548a181adec65546
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy transitional package that depends on either grub-efi-ia32 or
+ grub-efi-amd64, depending on the architecture.
+
+Package: libc-dev-bin
+Architecture: amd64
+Version: 2.31-0ubuntu9
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: glibc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 440
+Depends: libc6 (>> 2.31), libc6 (<< 2.32)
+Recommends: manpages, manpages-dev
+Filename: pool/main/g/glibc/libc-dev-bin_2.31-0ubuntu9_amd64.deb
+Size: 71820
+MD5sum: 44601da0e5806b2e39a94dad2c95a363
+SHA1: d331c98a19dd59036bf4c8bcf71fd5dcd7d6fd2b
+SHA256: 51bf3e807747de738435e9aa4213f43ec62769d7178614e4db9de387446c714e
+SHA512: b19e6b39f9e7b946ba677299b739f693ac1ffc1705e604425b732b558f5e953f71c38b8267eeed1a18861618d351d0b910b0b2528ec6025afaab99dd84fab12f
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Development binaries
+ This package contains utility programs related to the GNU C Library
+ development package.
+
+Package: libc6-dev
+Architecture: amd64
+Version: 2.31-0ubuntu9
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: glibc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 19070
+Provides: libc-dev
+Depends: libc6 (= 2.31-0ubuntu9), libc-dev-bin (= 2.31-0ubuntu9), linux-libc-dev, libcrypt-dev
+Suggests: glibc-doc, manpages-dev
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Breaks: binutils (<< 2.26), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.4+dfsg.1-5), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gcc-4.6 (<< 4.6.0-12), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), libperl5.26 (<< 5.26.1-3), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
+Filename: pool/main/g/glibc/libc6-dev_2.31-0ubuntu9_amd64.deb
+Size: 2519944
+MD5sum: d4868a13f87dfcdd80351a383e96e01b
+SHA1: 9bf156dff3b3713fd23c0c070bce867fe226a34e
+SHA256: adb78f38fb00c76af4384be7a4c5f41da242e05bea6b0483e03b7e0c86738477
+SHA512: c06ab9e19366b17fae1e65ddb427b6c811e3d57632b9cf2b85184b40c3d547a883fd4c52b662f82ef89dd9f90fec1d39a7e7eb13e652f2f6982ed6ce60165609
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Development Libraries and Header Files
+ Contains the symlinks, headers, and object files needed to compile
+ and link programs which use the standard C library.
+
+Package: grub-efi-amd64-signed
+Architecture: amd64
+Version: 1.142+2.04-1ubuntu26
+Built-Using: grub2 (= 2.04-1ubuntu26)
+Priority: optional
+Section: utils
+Source: grub2-signed (1.142)
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Installed-Size: 4448
+Depends: grub-efi-amd64-bin (= 2.04-1ubuntu26), grub-efi-amd64 | grub-pc
+Recommends: secureboot-db
+Filename: pool/main/g/grub2-signed/grub-efi-amd64-signed_1.142+2.04-1ubuntu26_amd64.deb
+Size: 468240
+MD5sum: aa75466e3327322c7da7e82903c9fbd6
+SHA1: 9ed0a4a0c4c6f21452630e0a08818c25d628e704
+SHA256: 52b23b382dd571b36867679e95f09ee4e7039d906b8b99d3b0f896d2ec3b4ef1
+SHA512: 460768161c9dcc95ca0e9b380c453919979d98c422f5ee6d0f02febe0f179ecf683beb8269992833c50fe3e3f274a491b5ebb9f82a224097c472f1bb514edc86
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB built for use with the EFI-AMD64
+ architecture, signed with Canonical's UEFI signing key.
+
+Package: efibootmgr
+Architecture: amd64
+Version: 17-1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 91
+Depends: libc6 (>= 2.14), libefiboot1 (>= 37), libefivar1 (>= 37), libpopt0 (>= 1.14)
+Filename: pool/main/e/efibootmgr/efibootmgr_17-1_amd64.deb
+Size: 28132
+MD5sum: f96cb80db02d40b2b7fb23e76cbef5f4
+SHA1: 807ad0748d7d68ce286c6f8106aa0a2b80a9b085
+SHA256: 0da33e43c97e5505d4d54e4145a72e76ce72278c3a9488792da86d9f30709d73
+SHA512: e67f183bff2b124ff937a26fd42e409855b67bfb68726466503f184997d7a315d11fcde4a00635175b335beae305ae0fbfdfb4af12f4847955df7eeec4e6dedd
+Description: Interact with the EFI Boot Manager
+ This is a Linux user-space application to modify the Intel Extensible
+ Firmware Interface (EFI) Boot Manager configuration. This application can
+ create and destroy boot entries, change the boot order, change the next
+ running boot option, and more.
+ .
+ Additional information about (U)EFI can be found at http://www.uefi.org/.
+ .
+ Note: efibootmgr requires that the kernel module efivars be loaded prior
+ to use. 'modprobe efivars' should do the trick if it does not
+ automatically load.
+
