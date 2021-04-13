@@ -127,7 +127,6 @@ colmap						install
 colord						install
 colord-data					install
 comerr-dev:amd64				install
-conda						install
 console-setup					install
 console-setup-linux				install
 coreutils					install
