@@ -10,4 +10,4 @@ RUN sudo apt-key add /from-vbox/ose-export/Repo.keys && \
     sudo apt-get install dselect && \
     sudo dselect update && \
     sudo dpkg --set-selections < /from-vbox/ose-export/Package.list && \
-    sudo apt-get dselect-upgrade -y
+    sudo DEBIAN_FRONTEND=noninteractive apt-get dselect-upgrade -y
