@@ -688,8 +688,7 @@ iucode-tool					install
 iw						install
 jack-capture					install
 jackd						install
-jackd2						install
-jackd2-firewire					install
+jackd1						install
 janino						install
 java-common					install
 java-wrappers					install
